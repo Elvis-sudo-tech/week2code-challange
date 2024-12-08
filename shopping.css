@@ -1,0 +1,67 @@
+
+body {
+    background-color: hsl(175, 96%, 44%);
+    display: grid;
+    place-items: center;
+    margin: auto; 
+    padding: 20px; 
+    font-family: Arial, sans-serif;
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 20px; 
+    
+    background-color: hsl(170, 100%, 50%);
+    font-weight: bolder;
+    font-style: oblique;
+    font-family: monospace;
+}
+
+
+input {
+    margin: 20px;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid #ffdddd;
+    border-radius: 5px;
+    
+}
+label{
+    font-size: larger;
+    font-weight: bolder;
+
+}
+button#addButton{
+    margin: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #745107;
+    color: rgb(18, 228, 123);
+    border: none;
+    border-radius: 5px;
+    
+}
+button#clearList{
+    margin: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: hsl(32, 85%, 21%);
+    color: rgb(18, 228, 123);
+    border: none;
+    border-radius: 5px;
+    
+}
+
+
+
+#shoppingList {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    background: hsl(170, 100%, 50%);
+    border-radius: 10px; 
+}
+
